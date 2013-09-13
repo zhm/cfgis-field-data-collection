@@ -1,0 +1,70 @@
+body {
+  font-family: 'Helvetica', sans-serif, 'Georgia', serif;
+  background:#000;
+  background-size:100%;
+  margin:0;
+  padding:0;
+  color:#fff;
+}
+
+h1, h2, h3, p { margin:0; }
+
+em, a {
+  font-style:normal;
+  color:#ff1759;
+}
+
+a {
+  background: #ff1759;
+  color:#000;
+  text-decoration:none;
+}
+
+.white {
+  background-color: #fff !important;
+}
+
+.strike {
+}
+.strike {
+    position: relative;
+}
+.strike::after {
+    border-bottom: 10px solid #ff1759;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+img { width:100%; }
+
+div.slide {
+  padding:6%;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  cursor:pointer;
+  cursor:hand;
+  font-size:120px;
+  overflow:hidden;
+  background-size:100%;
+}
+
+@-webkit-keyframes blink {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+blink {
+  -webkit-animation-name: blink;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 0.5s;
+}
+
+/* @-webkit-keyframes colorPulse { 0% {background-color: #000;} 100% {background-color: #fff;} } */
+/* @-webkit-keyframes colorPulse { 0% {background-color: #78a22f;} 100% {background-color: #404041;} } */
+.blink { background-size: auto !important; }
+/* .blink { -webkit-animation: colorPulse 0.5s infinite alternate; background-size: auto !important; } */
+/* .blink { -webkit-animation-name: colorPulse; -webkit-animation-duration: 10s; -webkit-animation-iteration-count: 10; -webkit-animation-direction: alternate; -webkit-animation-timing-function: ease-in; -webkit-animation-fill-mode: forwards; -webkit-animation-delay: 2s; } */
