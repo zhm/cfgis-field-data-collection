@@ -9,9 +9,114 @@ body {
 
 h1, h2, h3, p { margin:0; }
 
+.slide.huge {
+  font-size: 600px !important;
+}
+
+.slide.h200 {
+  font-size: 260px !important;
+  line-height: 80%;
+}
+
+div.slide.white {
+  background-color: white;
+  color: black;
+}
+
+.slide.yellow {
+  background-color: #e8ff09;
+  color: black;
+  font-weight: bold;
+}
+
+.slide.magenta {
+  background-color: #fc0c69;
+  color: black;
+  font-weight: bold;
+}
+
+.slide.blue {
+  background-color: #5ba9e1;
+  color: black;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+.slide.light-green {
+  background-color: #00ffcc;
+  color: #f482b5;
+  font-weight: bold;
+  text-align: center;
+}
+
+.slide.orange {
+  background-color: #ff4109;
+  color: black;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+.slide.yellowish {
+  background-color: #ffff66;
+  color: #000;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+.slide.greenish {
+  background-color: #8affbf;
+  color: #000;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+.slide.pinkish {
+  background-color: #fc0c69;
+  color: #000;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+.slide.peachish {
+  background-color: #ffbd8a;
+  color: #000;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+.slide.peachish-alt {
+  background-color: #000;
+  color: #ffbd8a;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+.slide.green2 {
+  background-color: #8affbf;
+  color: #000;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+.slide.orangish {
+  background-color: #ffcb26;
+  color: #000;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+
 em, a {
   font-style:normal;
   color:#ff1759;
+}
+
+a.white em {
+  color: white;
+}
+
+p.small {
+  font-size: 60px;
 }
 
 a {
@@ -20,9 +125,9 @@ a {
   text-decoration:none;
 }
 
-.white {
-  background-color: #fff !important;
-}
+/* .white { */
+/*   background-color: #fff !important; */
+/* } */
 
 .strike {
 }
@@ -61,6 +166,10 @@ blink {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
   -webkit-animation-duration: 0.5s;
+}
+
+.auto {
+  background-size: auto !important;
 }
 
 /* @-webkit-keyframes colorPulse { 0% {background-color: #000;} 100% {background-color: #fff;} } */
